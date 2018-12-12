@@ -25,19 +25,6 @@ const mongoose = require('mongoose');
 // create Class to aceess the database
 
 	const Persons = mongoose.model('person',personSchema);
-// Joi validation function containing Schema to varify or check
-
-	// function validateCustomers(customerDetail){
-
-
-	// 	const schemaOfCustomer={
-	// 		name:Joi.string().min(3).required(),
-			
-	// 	};
-
-	// 	return Joi.validate(customerDetail, schemaOfCustomer);
-	// }    
-
 
 	exports.Persons=Persons;
-	// exports.validate=validateCustomers;
+	

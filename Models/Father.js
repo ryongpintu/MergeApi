@@ -15,6 +15,5 @@ const fatherSchema = new mongoose.Schema({
 });
 
 const Father = mongoose.model('father',fatherSchema);
-// Joi validation function containing Schema to varify or check
 
 exports.Father=Father;
