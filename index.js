@@ -5,7 +5,7 @@ const father = require('./Routes/father');
 const app = express();
 
 //Connect to db
-mongoose.connect("mongodb://localhost/mergePerson", { useNewUrlParser: true } )
+mongoose.connect("mongodb://ryong:pintu123@ds237373.mlab.com:37373/mergeapi", { useNewUrlParser: true } )
   .then(()=>console.log('connected to db'))
   .catch((err)=>console.log('something went wrong'+err));
 
